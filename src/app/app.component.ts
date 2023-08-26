@@ -25,6 +25,9 @@ export class AppComponent {
     dialogRef.afterClosed().subscribe((result: any) => {
       console.log('The dialog was closed');
       console.log(result);//returns undefined
+      if(result){
+        
+      }
     });
   } 
 }
