@@ -4,7 +4,12 @@
       <div class="d-flex flex-column mb-3">
         <button class="btn btn-light ">Docket</button>
         <!-- <button  class="plus-button btn btn-dark mt-5 mx-auto text-center">+</button> -->
-        <button  class="mat-mini-fab mt-5 mx-auto">+</button>
+        <button  class="mat-mini-fab mt-5 mx-auto" (click)="openDialog()">+</button>
+        <!-- <div class="dropdown-menu">
+          <a class="dropdown-item" href="#" (click)="changeColor('red')">Red</a>
+          <a class="dropdown-item" href="#" (click)="changeColor('blue')">Blue</a>
+          <a class="dropdown-item" href="#" (click)="changeColor('green')">Green</a>
+        </div> -->
       </div>
     </mat-drawer>
     <div class="row">
@@ -23,5 +28,4 @@
       </nav>
     </div>
   </mat-drawer-container>
-
 </div>
